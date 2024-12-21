@@ -1,0 +1,331 @@
+[
+    {
+      "id": 1,
+      "x": 29,
+      "y": 324,
+      "neighbors": [2, 3],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 2,
+      "x": 47,
+      "y": 324,
+      "neighbors": [4],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 3,
+      "x": 37,
+      "y": 308,
+      "neighbors": [35, 2],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 4,
+      "x": 160,
+      "y": 324,
+      "neighbors": [5],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 5,
+      "x": 207,
+      "y": 324,
+      "neighbors": [7],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 6,
+      "x": 175,
+      "y": 308,
+      "neighbors": [5],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 7,
+      "x": 423,
+      "y": 324,
+      "neighbors": [8],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 8,
+      "x": 480,
+      "y": 324,
+      "neighbors": [10],
+      "type": "LANDINGPOINT_A320"
+    },
+    {
+      "id": 9,
+      "x": 450,
+      "y": 308,
+      "neighbors": [8],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 10,
+      "x": 565,
+      "y": 324,
+      "neighbors": [11, 12],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 11,
+      "x": 581,
+      "y": 324,
+      "neighbors": [13],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 12,
+      "x": 571,
+      "y": 308,
+      "neighbors": [29],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 13,
+      "x": 660,
+      "y": 324,
+      "neighbors": [14],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 14,
+      "x": 715,
+      "y": 324,
+      "neighbors": [16],
+      "type": "LANDINGPOINT_OTHERS"
+    },
+    {
+      "id": 15,
+      "x": 683,
+      "y": 308,
+      "neighbors": [14],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 16,
+      "x": 947,
+      "y": 324,
+      "neighbors": [17, 18],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 17,
+      "x": 965,
+      "y": 324,
+      "neighbors": [19],
+      "type": "LANDINGPOINT_A380"
+    },
+    {
+      "id": 18,
+      "x": 956,
+      "y": 308,
+      "neighbors": [28],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 19,
+      "x": 1056,
+      "y": 324,
+      "neighbors": [20, 21],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 20,
+      "x": 1060,
+      "y": 324,
+      "neighbors": [22],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 21,
+      "x": 1109,
+      "y": 298,
+      "neighbors": [47],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 22,
+      "x": 1189,
+      "y": 324,
+      "neighbors": [23, 24],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 23,
+      "x": 1206,
+      "y": 324,
+      "neighbors": [25],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 24,
+      "x": 1196,
+      "y": 308,
+      "neighbors": [47],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 25,
+      "x": 1388,
+      "y": 324,
+      "neighbors": [26],
+      "type": "ENDPOINT"
+    },
+    {
+      "id": 26,
+      "x": 1388,
+      "y": 234,
+      "neighbors": [27],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 27,
+      "x": 1197,
+      "y": 234,
+      "neighbors": [28],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 28,
+      "x": 956,
+      "y": 234,
+      "neighbors": [29],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 29,
+      "x": 571,
+      "y": 234,
+      "neighbors": [30],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 30,
+      "x": 545,
+      "y": 234,
+      "neighbors": [15, 31],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 31,
+      "x": 321,
+      "y": 234,
+      "neighbors": [9, 30, 32, 36],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 32,
+      "x": 197,
+      "y": 234,
+      "neighbors": [31, 33],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 33,
+      "x": 70,
+      "y": 234,
+      "neighbors": [32, 34, 35, 40],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 34,
+      "x": 73,
+      "y": 253,
+      "neighbors": [6],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 35,
+      "x": 37,
+      "y": 234,
+      "neighbors": [34, 41, 3],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 36,
+      "x": 184,
+      "y": 151,
+      "neighbors": [31, 37, 38, 39, 40, 41],
+      "type": "WAITINGPOINT"
+    },
+    {
+      "id": 37,
+      "x": 184,
+      "y": 117,
+      "neighbors": [36, 38, 46],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 38,
+      "x": 100,
+      "y": 117,
+      "neighbors": [36, 37, 39, 45],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 39,
+      "x": 73,
+      "y": 117,
+      "neighbors": [36, 38, 40, 44],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 40,
+      "x": 46,
+      "y": 117,
+      "neighbors": [33, 39, 41, 43],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 41,
+      "x": 20,
+      "y": 117,
+      "neighbors": [35, 40, 42],
+      "type": "WAYPOINT"
+    },
+    {
+      "id": 42,
+      "x": 20,
+      "y": 86,
+      "neighbors": [41],
+      "type": "TERMINAL"
+    },
+    {
+      "id": 43,
+      "x": 46,
+      "y": 86,
+      "neighbors": [40],
+      "type": "TERMINAL"
+    },
+    {
+      "id": 44,
+      "x": 73,
+      "y": 86,
+      "neighbors": [39],
+      "type": "TERMINAL"
+    },
+    {
+      "id": 45,
+      "x": 100,
+      "y": 86,
+      "neighbors": [38],
+      "type": "TERMINAL"
+    },
+    {
+      "id": 46,
+      "x": 184,
+      "y": 86,
+      "neighbors": [37],
+      "type": "TERMINAL"
+    },
+    {
+      "id": 47,
+      "x": 1196,
+      "y": 252,
+      "neighbors": [27],
+      "type": "WAYPOINT"
+    }
+  ]
