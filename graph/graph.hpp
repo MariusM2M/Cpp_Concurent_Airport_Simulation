@@ -14,12 +14,11 @@ class Edge
 {
 
     private:
-        int _destinationNodeID = 0;
-        int _weight = 0;
+        int _destinationNodeID;
+        int _weight;
     
     public:
-        Edge();
-        Edge(int destNodeID, int w);
+        Edge(int destNodeID, int weight):_destinationNodeID(destNodeID), _weight(weight) {};
         void setDestinationNodeID(int destNodeID);
         void setWeight(int weight);
         int getDestinationNodeID();

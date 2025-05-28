@@ -10,13 +10,6 @@
 using json = nlohmann::json;
 using namespace std;
 
-Edge::Edge() {}
-
-Edge::Edge(int destNodeID, int weight) {
-    _destinationNodeID = destNodeID;
-     _weight= weight;
-}
-
 void Edge::setDestinationNodeID(int destNodeID) {
     _destinationNodeID = destNodeID;
 }
@@ -157,7 +150,7 @@ void NavigationMesh::calculateEdges() {
             Node::Point initialPoint = _navigationMesh[i].getNodeCoordinates();
             // Calculate weight of the edges
             for (int j=0; j < neighbors.size(); j++) {
-                Edge edge;
+                Edge edge(0,0);
                 Node::Point neighborCoordinates = _navigationMesh[neighbors[j]-1].getNodeCoordinates();
                 edge.calculateWeight(initialPoint.x, initialPoint.y, neighborCoordinates.x, neighborCoordinates.y);
                 edge.setDestinationNodeID(neighbors[j]);

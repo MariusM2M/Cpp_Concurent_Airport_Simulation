@@ -67,8 +67,8 @@ The maximum amount of airplanes on the airport is set to 5 as there are only 5 t
 * Rubric Point 1/6: One or more classes are added to the project with appropriate access specifiers for class members.
   * graph.hpp with class Edge (line 13), class Node (line 31) and class NavigationMesh (line 66)
 * Rubric Point 2/6: Class constructors utilize member initialization lists.
-  * airport.cpp class constructor ``` Airport::Airport() ``` at line 152
-  * ``` Airport::Airport() ``` meets this criteria
+  * graph.hpp edge class constructor at line 21
+  * contructor meets this criteria
 * Rubric Point 3/6: Classes abstract implementation details from their interfaces.
   * airplane.hpp
   * see member variables and their discription from line 22 until 42  
